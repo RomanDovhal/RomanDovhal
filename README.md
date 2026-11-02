@@ -20,7 +20,7 @@ I design systems where the model does what it is good at and code does the rest:
 | **[Mimicria](https://github.com/RomanDovhal/mimicria-showcase)** | AI tutor on an infinite whiteboard: writes, draws and highlights in sync with the explanation | Board engine from scratch · 9-step validation of every AI fragment · CAS-checked math · real-time collaboration (Yjs) · lesson cost cut from ~$0.031 to ~$0.006 |
 | **[AI Data Studio](https://github.com/RomanDovhal/ai-data-studio-showcase)** | Spreadsheets and databases in plain language, with a diff preview before every change | Defence-in-depth Python sandbox · 3 privacy modes · automatic reconciliation of different sources · learning from accepted operations · Stripe SaaS |
 
-> Both are commercial products, so the repositories above are showcases: architecture, design decisions, demo and my role. I'm happy to walk through the code in an interview.
+> Both are commercial products, so the repositories above are showcases: architecture, design decisions and my role. I'm happy to walk through the code in an interview.
 
 ---
 
@@ -37,4 +37,4 @@ I design systems where the model does what it is good at and code does the rest:
 
 ### 📫 Contact
 
-[LinkedIn](TODO) · [Email](mailto:TODO)
+[LinkedIn](https://www.linkedin.com/in/roman-dovhal/)
