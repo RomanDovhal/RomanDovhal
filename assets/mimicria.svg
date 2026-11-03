@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101632"/>
+      <stop offset="1" stop-color="#1b2146"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#2a3462"/>
+    </pattern>
+    <style>
+      .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace; }
+      .hl { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .25 } 50% { opacity: .7 } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="598" height="318" rx="16" fill="url(#bg)" stroke="#2f3a6b" stroke-width="2"/>
+  <rect x="1" y="1" width="598" height="318" rx="16" fill="url(#dots)" opacity=".6"/>
+
+  <text x="32" y="48" class="sans" font-size="12" font-weight="700" letter-spacing="2" fill="#8aa2ff">MY PRODUCT</text>
+  <text x="32" y="88" class="sans" font-size="36" font-weight="700" fill="#f4f6ff">Mimicria</text>
+  <text x="32" y="118" class="sans" font-size="16" fill="#a9b2d8">AI tutor on an AI-native whiteboard</text>
+  <text x="32" y="140" class="sans" font-size="16" fill="#a9b2d8">— my own board engine and Board API</text>
+
+  <!-- mini board: tree diagram + formula -->
+  <g transform="translate(372,30)">
+    <rect width="198" height="140" rx="12" fill="#0d1330" stroke="#2c3768"/>
+    <line x1="99" y1="34" x2="52" y2="78" stroke="#5eead4" stroke-width="2"/>
+    <line x1="99" y1="34" x2="146" y2="78" stroke="#5eead4" stroke-width="2"/>
+    <line x1="146" y1="78" x2="120" y2="116" stroke="#5eead4" stroke-width="2"/>
+    <line x1="146" y1="78" x2="172" y2="116" stroke="#5eead4" stroke-width="2"/>
+    <circle class="hl" cx="146" cy="78" r="18" fill="#8aa2ff"/>
+    <circle cx="99" cy="34" r="12" fill="#1c2446" stroke="#8aa2ff" stroke-width="2"/>
+    <circle cx="52" cy="78" r="12" fill="#1c2446" stroke="#8aa2ff" stroke-width="2"/>
+    <circle cx="146" cy="78" r="12" fill="#1c2446" stroke="#f4f6ff" stroke-width="2"/>
+    <circle cx="120" cy="116" r="10" fill="#1c2446" stroke="#8aa2ff" stroke-width="2"/>
+    <circle cx="172" cy="116" r="10" fill="#1c2446" stroke="#8aa2ff" stroke-width="2"/>
+  </g>
+
+  <g class="mono" font-size="13" fill="#cdd5ff">
+    <rect x="32" y="164" width="300" height="34" rx="8" fill="#0d1330" stroke="#2c3768"/>
+    <text x="46" y="186"><tspan fill="#8aa2ff">write</tspan>(eq2, below: <tspan fill="#5eead4">"eq1"</tspan>, align: <tspan fill="#5eead4">"="</tspan>)</text>
+  </g>
+
+  <g class="sans" font-size="13" font-weight="600">
+    <rect x="32" y="222" width="114" height="30" rx="15" fill="#1c2446" stroke="#3a4680"/><text x="89" y="242" text-anchor="middle" fill="#cdd5ff">Board engine</text>
+    <rect x="154" y="222" width="90" height="30" rx="15" fill="#1c2446" stroke="#3a4680"/><text x="199" y="242" text-anchor="middle" fill="#cdd5ff">Board API</text>
+    <rect x="252" y="222" width="118" height="30" rx="15" fill="#1c2446" stroke="#3a4680"/><text x="311" y="242" text-anchor="middle" fill="#cdd5ff">Layout engine</text>
+    <rect x="378" y="222" width="176" height="30" rx="15" fill="#1c2446" stroke="#3a4680"/><text x="466" y="242" text-anchor="middle" fill="#cdd5ff">Real-time · Yjs</text>
+    <rect x="32" y="262" width="168" height="30" rx="15" fill="#0f3b36" stroke="#1f7a6d"/><text x="116" y="282" text-anchor="middle" fill="#7af0dc">9-step AI validation</text>
+    <rect x="208" y="262" width="136" height="30" rx="15" fill="#0f3b36" stroke="#1f7a6d"/><text x="276" y="282" text-anchor="middle" fill="#7af0dc">CAS-checked math</text>
+    <rect x="352" y="262" width="202" height="30" rx="15" fill="#0f3b36" stroke="#1f7a6d"/><text x="453" y="282" text-anchor="middle" fill="#7af0dc">Lesson cost $0.031 → $0.006</text>
+  </g>
+</svg>
