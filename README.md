@@ -1,41 +1,84 @@
-# Hi, I'm Roman Dovhal 👋
+<p align="center">
+  <img src="./assets/banner.svg" alt="Roman Dovhal — Fullstack Developer · LLM-powered products" width="100%">
+</p>
 
-**Fullstack developer building LLM-powered products — from architecture to production.**
+<p align="center">
+  <a href="https://www.linkedin.com/in/roman-dovhal/"><img src="https://img.shields.io/badge/LinkedIn-roman--dovhal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.anamnota.com/pl"><img src="https://img.shields.io/badge/Now-Anamnota-5EEAD4?style=for-the-badge&labelColor=0B1020" alt="Now at Anamnota"></a>
+  <img src="https://img.shields.io/badge/Open_to-Fullstack_%26_AI_roles-8AA2FF?style=for-the-badge&labelColor=0B1020" alt="Open to fullstack and AI roles">
+</p>
 
-I design systems where the model does what it is good at and code does the rest: the LLM writes, code verifies, runs and draws. At work I lead Anamnota, an AI copilot for medical anamnesis. My own products put the same idea into practice — an AI tutor on a whiteboard where the AI works through the same Board API as people and a layout engine places everything, and a data tool where AI-generated code runs in a sandbox and every change is previewed as a diff.
+## 👋 About me
 
-- 🏗️ **Architecture first** — data flow, failure modes and decision records before the first line of code
-- 🧠 **LLM engineering** — tool calling, structured output, multi-provider routing with fallbacks, prompt caching, cost tracking, evals with record/replay
-- 🔒 **Safety by design** — sandboxed code execution, validation before display, privacy modes, security audits
-- 🤖 **AI-native workflow** — specification-driven development with AI coding agents, guarded by tests, enforced boundaries and CI
-- 💼 Fullstack Developer at **[Anamnota](https://www.anamnota.com/pl)** (1+ year) — architecture, LLM integration and tuning, hosting, team coordination in GitLab
-- 🎓 Computer Science, Silesian University of Technology (final year)
-- 📍 Poland · open to on-site, hybrid and remote roles
+I build **LLM-powered products end to end — from architecture to production**. My rule: let the model do what it is good at, and let code verify, run and draw the rest.
 
----
+- 💼 **Fullstack Developer at [Anamnota](https://www.anamnota.com/pl)** · since Oct 2025 — an AI copilot for medical anamnesis. I designed the architecture, integrated and tuned the LLMs for the use case, set up hosting and deployment, and coordinate work in GitLab. The same engine powers a version for lawyers.
+- 🎓 **Computer Science**, Silesian University of Technology — final year
+- 📍 **Gliwice, Poland** — on-site, hybrid or remote
 
-### 🚀 My products
+## 🚀 My products
 
-| | What it is | Highlights |
-|---|---|---|
-| **[Mimicria](https://github.com/RomanDovhal/mimicria-showcase)** | AI tutor on an infinite whiteboard, built on my own AI-native board engine: the AI reads the board as data and writes, draws and highlights through the same API as people | Board engine from scratch · layout engine · declarative diagrams · real-time collaboration (Yjs) · 9-step validation of every AI change · AI session cost cut from ~$0.031 to ~$0.006 |
-| **[AI Data Studio](https://github.com/RomanDovhal/ai-data-studio-showcase)** | Spreadsheets and databases in plain language, with a diff preview before every change | Defence-in-depth Python sandbox · 3 privacy modes · automatic reconciliation of different sources · learning from accepted operations · Stripe SaaS |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/RomanDovhal/mimicria-showcase"><img src="./assets/mimicria.svg" alt="Mimicria — AI tutor on an AI-native whiteboard" width="100%"></a>
+      <p>An AI tutor that writes, draws and highlights in sync with its explanation — running on a <b>board engine I built from scratch</b>, where the AI reads the board as data and works through the <b>same Board API as people</b>.</p>
+      <a href="https://github.com/RomanDovhal/mimicria-showcase"><b>Architecture &amp; Board API →</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/RomanDovhal/ai-data-studio-showcase"><img src="./assets/ai-data-studio.svg" alt="AI Data Studio — spreadsheets in plain language" width="100%"></a>
+      <p>Spreadsheets and databases in plain language: AI-generated code runs in a <b>defence-in-depth sandbox</b> and every change is <b>previewed as a diff</b> before it touches the data.</p>
+      <a href="https://github.com/RomanDovhal/ai-data-studio-showcase"><b>Architecture &amp; security →</b></a>
+    </td>
+  </tr>
+</table>
 
-> Both are my own commercial products, so the repositories above are showcases: architecture, design decisions and my role. I'm happy to walk through the code in an interview.
+<sub>Both are my own commercial products, so the repositories are showcases: architecture, design decisions and my role. I'm happy to walk through the code in an interview.</sub>
 
----
+## 🧠 How I build
 
-### 🔧 Stack
+<table>
+  <tr>
+    <td width="50%" valign="top"><b>🏗️ Architecture first</b><br>Data flow, failure modes and decision records before the first line of code.</td>
+    <td width="50%" valign="top"><b>🧠 LLM engineering</b><br>Tool calling, structured output, multi-provider routing with fallbacks, prompt caching, evals with record/replay.</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><b>🔒 Safety by design</b><br>Sandboxed execution, validation before display, privacy modes, security audits.</td>
+    <td width="50%" valign="top"><b>🤖 AI-native workflow</b><br>Specification-driven development with coding agents, guarded by tests, enforced boundaries and CI.</td>
+  </tr>
+</table>
 
-**Languages:** TypeScript · Python · JavaScript · C++ · C#
-**Frontend:** React · Vite · Canvas 2D · Zustand · KaTeX
-**Backend:** Node.js · Fastify · FastAPI · PostgreSQL · SQLAlchemy · Kysely · pandas
-**AI:** OpenAI · Anthropic · tool calling · structured outputs · prompt caching · evals
-**Realtime & infra:** Yjs · WebSockets · Docker · hosting & deployment · GitLab · GitHub Actions · Vitest · Playwright · pytest
-**Also:** ESP32 / embedded · Linux
+## 🔧 Tech stack
 
----
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Canvas_2D-0B1020?style=flat-square" alt="Canvas 2D">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/Yjs_·_realtime-0B1020?style=flat-square" alt="Yjs">
+  <br>
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square" alt="OpenAI API">
+  <img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API">
+  <img src="https://img.shields.io/badge/Tool_calling_·_Evals-0B1020?style=flat-square" alt="Tool calling and evals">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest">
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
+</p>
 
-### 📫 Contact
+## 📫 Let's talk
 
-[LinkedIn](https://www.linkedin.com/in/roman-dovhal/)
+<p>
+  <a href="https://www.linkedin.com/in/roman-dovhal/"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn"></a>
+</p>
