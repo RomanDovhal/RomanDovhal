@@ -22,9 +22,9 @@ I build **LLM-powered products end to end — from architecture to production**.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/RomanDovhal/mimicria-showcase"><img src="./assets/mimicria.svg" alt="Mimicria — AI tutor on an AI-native whiteboard" width="100%"></a>
+      <a href="https://github.com/RomanDovhal/mimicria-ai-tutor"><img src="./assets/mimicria.svg" alt="Mimicria — AI tutor on an AI-native whiteboard" width="100%"></a>
       <p>An AI tutor that writes, draws and highlights in sync with its explanation — running on a <b>board engine I built from scratch</b>, where the AI reads the board as data and works through the <b>same Board API as people</b>.</p>
-      <a href="https://github.com/RomanDovhal/mimicria-showcase"><b>Architecture &amp; Board API →</b></a>
+      <a href="https://github.com/RomanDovhal/mimicria-ai-tutor"><b>Architecture &amp; Board API →</b></a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/RomanDovhal/ai-data-studio-showcase"><img src="./assets/ai-data-studio.svg" alt="AI Data Studio — spreadsheets in plain language" width="100%"></a>
