@@ -13,6 +13,7 @@
 I build **LLM-powered products end to end — from architecture to production**. My rule: let the model do what it is good at, and let code verify, run and draw the rest.
 
 - 💼 **Fullstack Developer at [Anamnota](https://www.anamnota.com/pl)** · since Oct 2025 — an AI copilot for medical anamnesis. I designed the architecture, integrated and tuned the LLMs for the use case, set up hosting and deployment, and coordinate work in GitLab. The same engine powers a version for lawyers.
+- 🔨 **Now building:** Mimicria — getting the board engine and the AI tutor ready for public launch
 - 🎓 **Computer Science**, Silesian University of Technology — final year
 - 📍 **Gliwice, Poland** — on-site, hybrid or remote
 
@@ -53,29 +54,16 @@ I build **LLM-powered products end to end — from architecture to production**.
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/Canvas_2D-0B1020?style=flat-square" alt="Canvas 2D">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/Yjs_·_realtime-0B1020?style=flat-square" alt="Yjs">
-  <br>
   <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square" alt="OpenAI API">
   <img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API">
-  <img src="https://img.shields.io/badge/Tool_calling_·_Evals-0B1020?style=flat-square" alt="Tool calling and evals">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest">
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
+  <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI">
 </p>
+<sub>Also: Canvas 2D, Yjs, Fastify, pandas, Vitest, pytest, Playwright, GitHub Actions, C++.</sub>
 
 ## 📫 Let's talk
 
